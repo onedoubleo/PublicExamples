@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ title }}</title>
+</head>
+
+<body>
+  <h1>Florianna Rooftop Monitor</h1>
+  <h2>The date and time on the server is: {{ time }}</h2>
+  <h2> {{ text }} </h2>
+  
+  <!-- Begin Per Plant Monitoring  -->
+  
+
+
+  <div class="PlantBox" style="width:10%;">
+	<h3>I'm Pete The Orchid</h3>
+	<h2> {{ text }} </h2>
+	
+	<a href="/auto/water/ON"><button>Turn ON Auto Watering</button></a>
+	<br />
+	<a href="/auto/water/OFF"><button>Turn OFF Auto Watering</button></a>
+	<br />
+	<a href="/sensor"><button>Check Soil Status</button></a> <br>
+	<br />
+	<a href="/water"><button>Water Once</button></a>
+	<br />
+	<a href="/last_watered"><button>Check Time Last Watered</button></a>
+	<br />
+  </div>
+  
+  
+</body>
+</html>
